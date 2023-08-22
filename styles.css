@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -178,6 +183,45 @@
     display: flex;
 }
 
+
+.placement-companies{
+    background-color: white;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.placement-companies > div > img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.placement-companies > div > img:hover{
+    box-shadow: 10px 10px 20px orangered;
+}
+
+.placement-section{
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placement-heading{
+    margin-bottom: 70px;
+}
+
+.placement-heading h1{
+    font-size: 3rem;
+}
 
 
 .stats > div{
