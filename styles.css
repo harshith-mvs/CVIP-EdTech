@@ -206,6 +206,11 @@ html{
     box-shadow: 10px 10px 20px orangered;
 }
 
+
+.placement-companies > div :hover {
+    transform: translateY(-10px);
+}
+
 .placement-section{
     height: 100vh;
     width: 100%;
@@ -221,6 +226,33 @@ html{
 
 .placement-heading h1{
     font-size: 3rem;
+}
+
+
+#skills{
+    background-color: orangered;
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.skills-heading h1{
+    color: white;
+    font-size: 4rem;
+}
+
+
+.skills-section{
+    border-radius: 25px;
+    background-color: white;
+    height: 65vh;
+    width: 75vw;
 }
 
 
@@ -280,4 +312,5 @@ html{
     font-size: 2rem;
     color: white;
     background-color: orangered;
+    min-width: 100%;
 }
