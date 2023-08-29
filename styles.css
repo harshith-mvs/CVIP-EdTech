@@ -259,6 +259,7 @@ html{
 .stats > div{
     margin: 0 100px;
     line-height: 25px;
+    animation : 1s slide-in normal; 
 }
 
 .stats p{
@@ -313,4 +314,14 @@ html{
     color: white;
     background-color: orangered;
     min-width: 100%;
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
 }

@@ -23,7 +23,7 @@ body{
     width: 450px;
     border-radius: 15px;
     margin: 40px;
-    animation: slide-up 2s ease-in-out 0s;
+    animation: 2s slide-up ease-in-out 0s;
 }
 
 .card-body{
