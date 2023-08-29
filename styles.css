@@ -200,6 +200,8 @@ html{
     height: 200px;
     border-radius: 15px;
     border: 1px solid black;
+
+    animation : 1s slide-in normal;
 }
 
 .placement-companies > div > img:hover{
