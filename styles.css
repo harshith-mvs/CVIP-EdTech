@@ -79,6 +79,21 @@ html{
     background-color: orangered;
 }
 
+.disclaimer{
+    background-color: orangered;
+    height: 10vh;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer > p{
+    line-height: 50px;
+}
+
 .enroll-button{
     padding: 5px 15px;
     border-radius: 10px;
@@ -118,6 +133,12 @@ html{
 .head-left{
     background-color: white;
     width: 60%;
+}
+
+.head-right{
+    display: flex;
+    align-items: center;
+    transform: translateX(-50px);
 }
 
 .header-para{
@@ -231,32 +252,6 @@ html{
 }
 
 
-#skills{
-    background-color: orangered;
-    height: 100vh;
-    width: 100%;
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-.skills-heading h1{
-    color: white;
-    font-size: 4rem;
-}
-
-
-.skills-section{
-    border-radius: 25px;
-    background-color: white;
-    height: 65vh;
-    width: 75vw;
-}
-
 
 .stats > div{
     margin: 0 100px;
@@ -278,6 +273,7 @@ html{
     justify-content: center;
     align-items: center;
     margin: 100px auto;
+    cursor: pointer;
 }
 
 
